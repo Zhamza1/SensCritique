@@ -1,0 +1,63 @@
+a{
+    color: white;
+}
+
+.letitre{
+    margin-top: 100px;
+}
+
+.ligne{
+    margin-top: 10px;
+    height: 300px;
+    background-color: #242A32;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
+
+
+.grosse{
+    margin-top: -100px;
+    height: 800px;
+    width: 100%;
+    
+}
+
+.letexte{
+    margin-top: 400px;
+    margin-left: 28%;
+    font-size: 40px;
+    width: 40%;
+    line-height: auto;
+}
+
+p{
+    font-size: 40px;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+.spoiler-content{
+    display: none;
+}
+
+.spoiler-content.visible{
+    display: block;
+}
+
+
+@media screen and (max-width: 550px) {
+    
+    .letexte{
+        margin-left: 10%;
+        font-size: 40px;
+        width: 80%;
+        line-height: auto;
+    }  
+}
+
